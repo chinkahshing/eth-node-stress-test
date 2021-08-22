@@ -1,0 +1,15 @@
+[Unit]
+Description=Log Event
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=seacrypt
+ExecStart=/opt/bitnami/node/bin/node /opt/seacrypt/eth-node-stresstest/logEvent.js
+StandardOutput=file:/var/log/LogEvent.log
+
+[Install]
+WantedBy=multi-user.target

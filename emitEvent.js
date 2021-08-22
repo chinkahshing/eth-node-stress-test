@@ -8,7 +8,7 @@ const  { log } = pkg;
 Object.defineProperty(pkg, 'heading', { get: () => { return new Date().toUTCString() } })
 log.headingStyle = { bg: '', fg: 'white' }
 
-const interval = 100;
+const interval = 5 * 60 * 100;
 
 const App = () => {
 
@@ -36,7 +36,7 @@ const App = () => {
     function main() {
         setInterval(()=> {
             emitEvent()
-        }, [100])
+        }, [interval])
     }
     log("info",`emitEvent","Emitting event at ${interval}ms interval`)
     main();
