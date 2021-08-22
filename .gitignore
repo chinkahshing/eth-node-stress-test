@@ -1,0 +1,3 @@
+node_modules
+logEvent*csv*
+yarn.lock
