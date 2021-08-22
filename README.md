@@ -47,3 +47,5 @@ node emitEvent.js
 This contract is deployed to bsctestnet under the address *0x0867c877a7905D2c3d041Fc7B5eafB118Ce4172D*.
 
 The test wallet *0x75722091d68C9Dd69Dc2C74909e29F9B3ad87664* is broadcasting the event at 5 minutes interval.
+
+See txn at [BSCTestnet](https://testnet.bscscan.com/address/0x0867c877a7905d2c3d041fc7b5eafb118ce4172d)
