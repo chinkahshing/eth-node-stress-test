@@ -1,6 +1,6 @@
 # eth-node-stress-test
 
-These are 2 scripts and 1 solidity conotract that are used to run event listening stress test on node provider.
+These are 2 scripts and 1 solidity contract that are used to run event listening stress test on node provider.
 
 ## Scripts
 
